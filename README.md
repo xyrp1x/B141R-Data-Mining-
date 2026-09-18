@@ -31,6 +31,9 @@ The models were evaluated using a stratified 80/20 train/test split. The quantit
 | Logistic Regression (TF-IDF) | 0.9012 | 0.9800 | 0.9100 | 0.9452 |
 | **Fine-tuned BERT (Transformer)** | **0.9600** | **0.9800** | **1.0000** | **0.9900** |
 
+<img width="1784" height="882" alt="image" src="https://github.com/user-attachments/assets/6a433601-b8e3-46bc-a6c7-432d2443eb3f" />
+
+
 ### Key Technological Highlights:
 * **The Baseline (VADER):** Showed decent zero-training speed but struggled heavily with false positives due to complex sentence structures and gaming slang.
 * **Statistical Classifiers:** Logistic Regression demonstrated phenomenal cost-to-performance efficiency on the TF-IDF matrix, yielding an accuracy of 90.12%.
