@@ -17,6 +17,8 @@ The implementation follows a strict 5-stage sequential lifecycle:
 3. **Data Transformation & Vectorization:** Mapping categorical classes into structural binary target values (`0` for Negative, `1` for Positive) and converting normalized text tokens into a 5,000-dimensional TF-IDF feature space (including unigrams and bigrams).
 4. **Predictive Modeling Benchmarking:** Testing and evaluating models across rule-based lexicons (VADER), classical statistical classifiers (Multinomial Naive Bayes, Logistic Regression), and deep contextual transformers (Fine-tuned BERT).
 5. **Unsupervised Knowledge Extraction:** Deploying Latent Dirichlet Allocation (LDA) modeling via the `gensim` library to automatically group positive feedback and negative product complaints into actionable themes.
+<img width="2085" height="881" alt="image" src="https://github.com/user-attachments/assets/3abcf075-e7e9-45ee-853a-a8005ba1c1b8" />
+
 
 ## 📈 Quantitative Performance & Model Benchmarks
 
